@@ -1,0 +1,47 @@
+.wrapper { 
+    /* border : 2px solid #000;  */
+    overflow:hidden;
+  }
+  
+  .wrapper div {
+     min-height: 200px;
+     padding: 10px;
+  }
+  .image_container {
+    /* background-color: gray; */
+    float:left; 
+    margin-right:50px;
+    margin-top:40px;
+    margin-left: 20px;
+    /* width:140px; */
+    /* border-right:2px solid #000; */
+  }
+  .details_container { 
+    background-color: white;
+    overflow:hidden;
+    margin:10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    /* border:2px dashed #ccc; */
+    min-height:170px;
+  }
+  .image{
+    max-width: 200px;
+  }
+  .btn{
+    border:0;
+    padding: 20px;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+  }
+  @media screen and (max-width: 400px) {
+     .image_container { 
+      float: none;
+      margin-right:0;
+      width:auto;
+      border:0;
+      border-bottom:2px solid #000;    
+    }
+  }

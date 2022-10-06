@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  // reactStrictMode: true,
+  i18n: {
+    locales: ["en-US", "fr", "de"],
+    defaultLocale: "en-US",
+  },
   swcMinify: true,
-}
+  images: {
+    domains: ["m.media-amazon.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
